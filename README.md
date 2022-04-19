@@ -17,30 +17,24 @@ Here we practice a decoupled server backend from frontend clients, where the ser
 ### Create a new file named 'nodemon.json' right in the root directory
 
 ### Add inside .env file variables as follows:
-`{`
-
-`  "env": {`
-
-`    "MONGO_USER": "yourMongoDBUsername",`
-
-`    "MONGO_PASSWORD": "yourPassword",`
-
-`    "MONGO_DB": "yourMongoDB_Database_Name",`
-
-`    "MONGO_CLUSTER": "yourMongoDB_Cluster",`
-
-`    "JWT_KEY": "YourVeryLongVerySecretKey"`
-
-`  }`
-
-`}`
+```
+{
+  "env": {
+    "MONGO_USER": "yourMongoDBUsername",
+    "MONGO_PASSWORD": "yourPassword",
+    "MONGO_DB": "yourMongoDB_Database_Name",
+    "MONGO_CLUSTER": "yourMongoDB_Cluster",
+    "JWT_KEY": "YourVeryLongVerySecretKey"
+  }
+}
+```
 
 
 ### Run the following from command prompt
-
-`npm install`
-
+```
+npm install
 `npm start`
+```
 
 ----------------
 ## Online Demo
