@@ -17,7 +17,7 @@ Here we practice a decoupled server backend from frontend clients, where the ser
 ### Create a new file named 'nodemon.json' right in the root directory
 
 ### Add inside .env file variables as follows:
-```
+```js
 {
   "env": {
     "MONGO_USER": "yourMongoDBUsername",
@@ -29,7 +29,7 @@ Here we practice a decoupled server backend from frontend clients, where the ser
 }
 ```
 ### Run the following from command prompt:
-```
+```js
 npm install
 npm start
 ```
