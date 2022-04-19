@@ -28,9 +28,7 @@ Here we practice a decoupled server backend from frontend clients, where the ser
   }
 }
 ```
-
-
-### Run the following from command prompt
+### Run the following from command prompt:
 ```
 npm install
 npm start
